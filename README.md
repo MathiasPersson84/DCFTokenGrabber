@@ -40,17 +40,13 @@ Nr Name
  2 Microsoft Teams
  3 Microsoft Outlook
  4 Office 365 SharePoint Online
- 5 OneDrive Sync Engine
- 6 Yammer Web
- 7 Microsoft Power BI
- 8 Azure Portal
- 9 Microsoft Azure CLI
-10 Microsoft Azure PowerShell
-11 Microsoft Exchange Web Services
-12 Microsoft Office 365 Portal
-13 Windows Azure Active Directory
-14 Office Exchange Online
-15 Azure SQL Database
+ 5 Azure Portal
+ 6 Microsoft Azure CLI
+ 7 Microsoft Azure PowerShell
+ 8 Microsoft Exchange Web Services
+ 9 Microsoft Office 365 Portal
+10 Windows Azure Active Directory
+11 Office Exchange Online
 
 # Choose the resource you want access to (e.g. Microsoft Graph).
 Nr Name
