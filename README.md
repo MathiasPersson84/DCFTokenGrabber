@@ -37,16 +37,14 @@ Start-AuthenticationFlow
 Nr Name
 -- ----
  1 Microsoft Office
- 2 Microsoft Teams
- 3 Microsoft Outlook
- 4 Office 365 SharePoint Online
- 5 Azure Portal
- 6 Microsoft Azure CLI
- 7 Microsoft Azure PowerShell
- 8 Microsoft Exchange Web Services
- 9 Microsoft Office 365 Portal
-10 Windows Azure Active Directory
-11 Office Exchange Online
+ 2 Microsoft Outlook
+ 3 Office 365 SharePoint Online
+ 4 Azure Portal
+ 5 Microsoft Azure CLI
+ 6 Microsoft Azure PowerShell
+ 7 Microsoft Office 365 Portal
+ 8 Windows Azure Active Directory
+ 9 Office Exchange Online
 
 # Choose the resource you want access to (e.g. Microsoft Graph).
 Nr Name
