@@ -364,17 +364,13 @@ function Start-AuthenticationFlow {
         [PSCustomObject]@{ Nr = 2; Name = "Microsoft Teams";                    ClientId = "1fec8e78-bce4-4aaf-ab1b-5451cc387264" }
         [PSCustomObject]@{ Nr = 3; Name = "Microsoft Outlook";                  ClientId = "5d661950-3475-41cd-a2c3-d671a3162bc1" }
         [PSCustomObject]@{ Nr = 4; Name = "Office 365 SharePoint Online";       ClientId = "00000003-0000-0ff1-ce00-000000000000" }
-        [PSCustomObject]@{ Nr = 5; Name = "OneDrive Sync Engine";               ClientId = "ab9b8c07-8f02-4f72-87fa-80105867a763" }
-        [PSCustomObject]@{ Nr = 6; Name = "Yammer Web";                         ClientId = "c1c74fed-04c9-4704-80dc-9f79a2e515cb" }
-        [PSCustomObject]@{ Nr = 7; Name = "Microsoft Power BI";                 ClientId = "871c010f-5e61-4fb1-83ac-98610a7e9110" }
-        [PSCustomObject]@{ Nr = 8; Name = "Azure Portal";                       ClientId = "c44b4083-3bb0-49c1-b47d-974e53cbdf3c" }
-        [PSCustomObject]@{ Nr = 9; Name = "Microsoft Azure CLI";                ClientId = "04b07795-8ddb-461a-bbee-02f9e1bf7b46" }
-        [PSCustomObject]@{ Nr = 10; Name = "Microsoft Azure PowerShell";        ClientId = "1950a258-227b-4e31-a9cf-717495945fc2" }
-        [PSCustomObject]@{ Nr = 11; Name = "Microsoft Exchange Web Services";   ClientId = "47629505-c2b6-4a80-adb1-9b3a3d233b7b" }
-        [PSCustomObject]@{ Nr = 12; Name = "Microsoft Office 365 Portal";       ClientId = "00000006-0000-0ff1-ce00-000000000000" }
-        [PSCustomObject]@{ Nr = 13; Name = "Windows Azure Active Directory";    ClientId = "00000002-0000-0000-c000-000000000000" }
-        [PSCustomObject]@{ Nr = 14; Name = "Office Exchange Online";            ClientId = "00000002-0000-0ff1-ce00-000000000000" }
-        [PSCustomObject]@{ Nr = 15; Name = "Azure SQL Database";                ClientId = "022907d3-0f1b-48f7-badc-1ba6abab6d66" }
+        [PSCustomObject]@{ Nr = 5; Name = "Azure Portal";                       ClientId = "c44b4083-3bb0-49c1-b47d-974e53cbdf3c" }
+        [PSCustomObject]@{ Nr = 6; Name = "Microsoft Azure CLI";                ClientId = "04b07795-8ddb-461a-bbee-02f9e1bf7b46" }
+        [PSCustomObject]@{ Nr = 7; Name = "Microsoft Azure PowerShell";        ClientId = "1950a258-227b-4e31-a9cf-717495945fc2" }
+        [PSCustomObject]@{ Nr = 8; Name = "Microsoft Exchange Web Services";   ClientId = "47629505-c2b6-4a80-adb1-9b3a3d233b7b" }
+        [PSCustomObject]@{ Nr = 9; Name = "Microsoft Office 365 Portal";       ClientId = "00000006-0000-0ff1-ce00-000000000000" }
+        [PSCustomObject]@{ Nr = 10; Name = "Windows Azure Active Directory";    ClientId = "00000002-0000-0000-c000-000000000000" }
+        [PSCustomObject]@{ Nr = 11; Name = "Office Exchange Online";            ClientId = "00000002-0000-0ff1-ce00-000000000000" }
     )
 
     $resource = @(
