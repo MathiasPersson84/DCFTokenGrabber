@@ -1,5 +1,5 @@
 # DCFTokenGrabber - Microsoft OAuth 2.0 Device Code Flow Toolkit (PowerShell)
-This PowerShell script provides a fully interactive way to authenticate against Microsoft services using the OAuth 2.0 Device Code Flow. It allows you to simulate how different public client applications (like Microsoft Teams, Office, Azure CLI, etc.) interact with various Microsoft resources (e.g. Graph API, Azure Management, Outlook) by authenticating and retrieving access and refresh tokens.
+This PowerShell script provides a fully interactive way to authenticate against Microsoft services using the OAuth 2.0 Device Code Flow. It allows you to simulate how different public client applications (like Microsoft Office, Azure CLI, Azure Portal etc.) interact with various Microsoft resources (e.g. Graph API, Azure Management, Outlook) by authenticating and retrieving access and refresh tokens.
 
 ## Features
 - Interactive client and resource selection menu
