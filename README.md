@@ -1,13 +1,13 @@
 # DCFTokenGrabber - Microsoft OAuth 2.0 Device Code Flow Toolkit (PowerShell)
-This PowerShell script provides a fully interactive way to authenticate against Microsoft services using the OAuth 2.0 Device Code Flow. It allows you to simulate how different public client applications (like Microsoft Office, Azure CLI, Azure Portal etc.) interact with various Microsoft resources (e.g. Graph API, Azure Management, Outlook) by authenticating and retrieving access and refresh tokens.
+This PowerShell script provides an interactive way to authenticate against Microsoft services using the OAuth 2.0 Device Code Flow. It allows you to simulate how different public client applications (like Microsoft Office, Azure CLI, Azure Portal etc.) interact with various Microsoft resources (e.g. Graph API, Azure Management, Outlook) by authenticating and retrieving access and refresh tokens.
 
 ## Features
 - Interactive client and resource selection menu
-- Secure Device Code authentication using browser
+- Device Code authentication using browser
 - Retrieves and displays access tokens and refresh tokens
 - Decodes JWT tokens for inspection (e.g. scopes, expiry, tenant ID)
 - Supports common Microsoft services like Graph API, Outlook, Key Vault, Azure Portal, etc.
-- Ideal for testing, learning, or reverse engineering public client capabilities
+- Ideal for testing and learning about public client capabilities
 
 ## Included Functions
 | Function Name             | Purpose                                                                 |
@@ -33,7 +33,7 @@ This PowerShell script provides a fully interactive way to authenticate against 
 # Run the main function:
 Start-AuthenticationFlow
 
-# Select the public client you'd like to simulate (e.g. Microsoft Teams).
+# Select the public client you'd like to simulate (e.g. Microsoft Office).
 Nr Name
 -- ----
  1 Microsoft Office
@@ -95,7 +95,7 @@ User.Read Mail.Read
 This tool is for educational and testing purposes only. It does not handle confidential clients or use client secrets. Use responsibly and in accordance with Microsoft's terms of use.
 
 ## License
-This project is released under the MIT License.
+This project is released under the GNU General Public License v3.0.
 
 ## Contributing
 Contributions and pull requests are welcome! Feel free to fork, improve, and submit suggestions via GitHub issues or PRs.
